@@ -1,5 +1,5 @@
 # fs_loadingscreen
-We made our Futureservice Loadingscreen Free!
+We made our Futureservice Loadingscreen finally Free!
 
 Heres a Preview of it!
 
