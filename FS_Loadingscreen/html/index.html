@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTURE SERVICE</title>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lalezar&family=Martel+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- main style sheet -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="full-wrapper">
+        <div class="container">
+            <!-- header area start -->
+            <div class="header-area">
+                <div class="header-main-area">
+                    <div class="header-left-effect">
+                        <img src="assets/images/header-left-angel.png">
+                    </div>
+                    <div class="header-content-area">
+                        FUTURE SERVICE
+                    </div>
+                    <div class="header-right-effect">
+                        <img src="assets/images/header-right-angel.png">
+                    </div>
+                </div>
+            </div>
+            <!-- header area end-->
+
+            <!--music area-->
+
+            <audio id="bg-music" autoplay loop>
+                <source src="assets/sounds/music.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <script>
+                const audio = document.getElementById('bg-music');
+                let isPaused = false;
+        
+                document.addEventListener('keydown', function(event) {
+                    if (event.code === 'Space') {
+                        if (isPaused) {
+                            audio.play();
+                            isPaused = false;
+                        } else {
+                            audio.pause();
+                            isPaused = true;
+                        }
+                    }
+                });
+            </script>
+
+            <!--music area end-->
+
+            <!-- social link area start -->
+            <div class="social-link-area">
+                <ul>
+                    <li><a href="https://discord.gg/jJ9dPBfpN6"><img src="assets/images/discord.svg" alt="discord"></a></li>
+                    <li><a href="https://tiktok.com/@erkanemal"><img src="assets/images/tiktok.svg" alt="tiktok"></a></li>
+                    <li><a href="https://instagram.com/"><img src="assets/images/instagram.svg" alt="instagram"></a></li>
+                </ul>
+            </div>
+            <!-- social link area end -->
+            <div class="body-main-content-area">
+                <!-- about server area start -->
+                <div class="about-the-server-area">
+                    <div class="about-server-header">
+                        <div class="server-header-icon">
+                            <img src="assets/images/bilgi.svg">
+                        </div>
+                        <div class="server-header-content">
+                            <h1>ABOUT THE SERVER</h1>
+                        </div>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <!-- about server area end -->
+
+                <!-- loading bar area start -->
+                <div class="loading-bar-area">
+                    <h1>LOADING . . .</h1>
+                    <div class="loading-filled">
+                        <div class="loading-progress"></div>
+                    </div>
+                </div>
+                <!-- loading bar area end -->
+
+                <!-- team member area start -->
+                <div class="team-member-area">
+
+                    <!-- founder area start -->
+                    <div class="team-member">
+                        <div class="team-member-images">
+                            <img src="assets/images/team-member.png" alt="images">
+                        </div>
+                        <div class="team-member-catagory">
+                            <p>FOUNDER</p>
+                        </div>
+                        <div class="team-member-name">
+                            <h2>ERKAN</h2>
+                        </div>
+                    </div>
+                    <!-- founder area end -->
+
+                    <!-- director area start -->
+                    <div class="team-member">
+                        <div class="team-member-images">
+                            <img src="assets/images/team-member.png" alt="images">
+                        </div>
+                        <div class="team-member-catagory">
+                            <p>DIRECTOR</p>
+                        </div>
+                        <div class="team-member-name">
+                            <h2>ERKAN</h2>
+                        </div>
+                    </div>
+                    <!-- director area end -->
+
+                    <!-- admin area start -->
+                    <div class="team-member">
+                        <div class="team-member-images">
+                            <img src="assets/images/team-member.png" alt="images">
+                        </div>
+                        <div class="team-member-catagory">
+                            <p>admin</p>
+                        </div>
+                        <div class="team-member-name">
+                            <h2>ERKAN</h2>
+                        </div>
+                    </div>
+                    <!-- admin area end -->
+
+                    <!-- admin area start -->
+                    <div class="team-member">
+                        <div class="team-member-images">
+                            <img src="assets/images/team-member.png" alt="images">
+                        </div>
+                        <div class="team-member-catagory">
+                            <p>admin</p>
+                        </div>
+                        <div class="team-member-name">
+                            <h2>ERKAN</h2>
+                        </div>
+                    </div>
+                    <!-- admin area end -->                
+                </div>
+                <!-- team member area end -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
